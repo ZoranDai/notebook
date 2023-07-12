@@ -20,5 +20,5 @@
 - [Patchwork++](https://arxiv.org/abs/2207.11919)
 
 ### 数据集
-- 公开数据集（Semantic Kitti), 可能难以体现算法优势
+- 公开数据集（[Semantic Kitti](http://www.semantic-kitti.org/), 可能难以体现算法优势
 - 矿山数据集，采集后难以定量评估，需要点云标注（是否为可行驶区域）
