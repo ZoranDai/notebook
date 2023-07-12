@@ -11,7 +11,7 @@
 - 针对较远区域lidar分割效果不稳定的问题，使用相邻帧对比的方法进行稳定性判断
 
 ### 待调研
-- 将点云转成网格进行处理的实时性及效果。（SLAMesh）
+- 受[A Fast Point Cloud Ground Segmentation Approach Based on Coarse-To-Fine Markov Random Field](https://ieeexplore.ieee.org/document/9410344)启发，可以
 
 ### 对比算法
 - PCA
@@ -21,3 +21,5 @@
 
 ### 数据集
 - 点云标注（是否为可行驶区域）
+
+A Fast Point Cloud Ground Segmentation Approach Based on Coarse-To-Fine Markov Random Field
