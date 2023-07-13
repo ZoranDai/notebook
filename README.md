@@ -7,6 +7,7 @@ LIO长期运行存在漂移问题，GNSS可以提供纠正。部分区域可能�
 
 ## 对比对象
 - [Fast-LIO2](https://github.com/hku-mars/FAST_LIO)
+- [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM)
 - [RTKLIB](https://www.rtklib.com/)
 
 # 矿山场景可行驶区域拟合
