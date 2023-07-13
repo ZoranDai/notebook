@@ -3,7 +3,11 @@
 LIO长期运行存在漂移问题，GNSS可以提供纠正。部分区域可能存在GNSS信号差的问题，LIO能够为其重新初始化提供位姿。
 
 ## 调研 
-- [GVINS](https://github.com/HKUST-Aerial-Robotics/GVINS) 
+- [GVINS](https://github.com/HKUST-Aerial-Robotics/GVINS)
+
+## 对比对象
+- [Fast-LIO2](https://github.com/hku-mars/FAST_LIO)
+- [RTKLIB](https://www.rtklib.com/)
 
 # 矿山场景可行驶区域拟合
 ## 背景介绍
