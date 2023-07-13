@@ -1,4 +1,4 @@
-# GNSS + Lidar + IMU Odometry（LIO）
+# GNSS + LIO(Lidar IMU Odometry)
 ## 背景介绍
 LIO长期运行存在漂移问题，GNSS可以提供纠正。部分区域可能存在GNSS信号差的问题，LIO能够为其重新初始化提供位姿。
 
