@@ -7,3 +7,4 @@
 ## Trick
 ### INS-centric + Visual Outlier Culling [IC-GVINS: A Robust, Real-time, INS-Centric GNSS-Visual-Inertial Navigation System for Wheeled Robot](https://github.com/i2Nav-WHU/IC-GVINS)
 
+## 尝试结合两篇论文优点，看看能不能减小误差
