@@ -10,6 +10,8 @@ pseudorange + carrier
 ### 1. Raw GNSS + Lidar + Camera + IMU 多传感器融合框架的提出（因子图优化）
 基于1
 ### 2. 关于退化判断的改进（lidar/Camera/GNSS）
-Camera基于2
+Camera基于2.1
+
 Lidar？
+
 GNSS应该有对应的信号
