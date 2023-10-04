@@ -11,9 +11,9 @@ pseudorange + carrier
 1. 基于因子图 [LVI-SAM](https://github.com/TixiaoShan/LVI-SAM) [易用版本](https://github.com/Cc19245/LVI-SAM-Easyused)
 2. 基于滤波 [R3live](https://github.com/hku-mars/r3live)
 ## 可以尝试改进的方向
-### 1. Raw GNSS + Lidar + Camera + IMU 多传感器融合框架的提出（因子图优化）
+### 1. Raw GNSS + Lidar + Camera + IMU 多传感器融合框架的提出（IESKF）
 Raw GNSS 的使用 基于1
-多传感器融合框架 基于3.1
+多传感器融合框架 基于3.2(相比与因子图优化，更加熟悉滤波的方法，对fastlio2有一定熟悉)
 ### 2. 关于退化判断的改进（lidar/Camera/GNSS）
 Camera基于2.1
 
