@@ -10,6 +10,9 @@ pseudorange + carrier
 ### 3. lidar-Camera-IMU Fusion
 1. 基于因子图 [LVI-SAM](https://github.com/TixiaoShan/LVI-SAM) [易用版本](https://github.com/Cc19245/LVI-SAM-Easyused)
 2. 基于滤波 [R3live](https://github.com/hku-mars/r3live)
+
+### 4. 数据结构
+[ivox](https://github.com/gaoxiang12/faster-lio)
 ## 可以尝试改进的方向
 ### 1. Raw GNSS + Lidar + Camera + IMU 多传感器融合框架的提出（IESKF）
 Raw GNSS 的使用 基于1
@@ -20,3 +23,5 @@ Camera基于2.1
 Lidar？
 
 GNSS应该有对应的信号
+### 3. voxel部分向ivox改进
+基于 4
