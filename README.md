@@ -21,6 +21,7 @@ pseudorange + carrier
 Raw GNSS 的使用 基于1
 多传感器融合框架 基于3.2(相比与因子图优化，更加熟悉滤波的方法，对fastlio2有一定熟悉)
 ### 2. 关于退化判断的改进（lidar/Camera/GNSS）
+退化程度与因子权重构建关系
 Camera基于2.1
 
 Lidar？
