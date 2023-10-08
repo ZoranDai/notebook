@@ -16,6 +16,7 @@ pseudorange + carrier
 [ivox](https://github.com/gaoxiang12/faster-lio)
 ## 可以尝试改进的方向
 ### 1. 因子图中加入raw GNSS因子（LVI-SAM）
+参考1.1 需要自己搭建实验平台录制数据集
 
 ### 2. 关于退化判断的改进（lidar/Camera/GNSS）
 退化程度与因子权重构建关系
@@ -24,7 +25,8 @@ Camera基于2.1
 Lidar？
 
 GNSS应该有对应的信号
-### 3. voxel部分向ivox改进
-基于 4
+### 3. LIO-SAM部分改进
+李宇航师兄的方法
+Fast-lio2/faster-lio
 
 ## 疑问
