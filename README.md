@@ -9,6 +9,7 @@ pseudorange + carrier
 
 ### 3. lidar-Camera-IMU Fusion
 1. 基于因子图 [LVI-SAM](https://github.com/TixiaoShan/LVI-SAM) [易用版本](https://github.com/Cc19245/LVI-SAM-Easyused)
+  comment: LVI-SAM中丢弃了使用IMU预积分模块预测值作为前端里程计的初始值，预测值全部来自视觉里程计，但是如果视觉里程计飞掉，则预测值将会使用纯IMU旋转预测，这对于低成本或是6轴IMU来说（LIO-SAM可以很容易适配6轴传感器，支持6轴IMU版本可以使用liorf）是很难得到一个好的预测值的，这里是不是应该优先使用IMU预积分得到的结果，而在检测到Lidar里程计退化时再使用视觉里程计进行预测和补偿，实际测试后发现这种方法仍然是可行的.
 2. 基于滤波 [R3live](https://github.com/hku-mars/r3live)
 
 ### 4. 数据结构
