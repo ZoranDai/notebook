@@ -15,12 +15,8 @@ pseudorange + carrier
 ### 4. 数据结构
 [ivox](https://github.com/gaoxiang12/faster-lio)
 ## 可以尝试改进的方向
-### 1. Raw GNSS + Lidar + Camera + IMU 多传感器融合框架的提出（IESKF）
-#### Raw GNSS + Lidar + IMU(GLIO)
+### 1. 因子图中加入raw GNSS因子（LVI-SAM）
 
-#### Raw GNSS + Camera + IMU(GVIO)
-Raw GNSS 的使用 基于1
-多传感器融合框架 基于3.2(相比与因子图优化，更加熟悉滤波的方法，对fastlio2有一定熟悉)
 ### 2. 关于退化判断的改进（lidar/Camera/GNSS）
 退化程度与因子权重构建关系
 Camera基于2.1
